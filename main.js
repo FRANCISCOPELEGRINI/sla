@@ -35,7 +35,7 @@ function speak(){
 
     speakData1= "a primeira previsão é" +prediction1;
 
-    speakData2= "a primeira previsão é" +prediction2;
+    speakData2= "a segunda previsão é" +prediction2;
 
     var utterThis = new SpeechSynthesisUtterance(speakData1 + speakData2);
 
